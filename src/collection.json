@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "illusive-component": {
+      "description": "illusive component",
+      "factory": "./illusive-component/index#myComponent",
+      "schema": "./illusive-component/schema.json"
+    },
+    "illusive-service": {
+      "description": "illusive service",
+      "factory": "./illusive-service/index#myService",
+      "schema": "./illusive-service/schema.json"
+    }
+  }
+}

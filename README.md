@@ -24,5 +24,14 @@ npm run build
 npm publish
 ```
 
+To generate new schematic package do:
+```bash
+npm pack
+```
+
+To install schematic package do:
+```bash
+npm install <path to illusive-schematic-*.tgz>
+```
+
 That's it!
- 
